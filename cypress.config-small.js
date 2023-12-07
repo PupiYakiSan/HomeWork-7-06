@@ -7,6 +7,6 @@ module.exports = defineConfig({
       // return { retries: 2 };
     },
   },
-  viewportWidth: 1920,
-  viewportHeight: 1080,
+  viewportWidth: 720,
+  viewportHeight: 1280,
 });
