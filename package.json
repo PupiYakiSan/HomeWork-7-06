@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gBig": "cypress run --config-file cypress.config.js --browser chrome",
+    "gBigV": "cypress run --config-file cypress.config.js --browser chrome --headed",
+    "eBig": "cypress run --config-file cypress.config.js --browser edge",
+    "eBigV": "cypress run --config-file cypress.config.js --browser edge --headed",
+    "gSmall": "cypress run --config-file cypress.config-small.js --browser chrome",
+    "gSmallV": "cypress run --config-file cypress.config-small.js --browser chrome --headed",
+    "eSmall": "cypress run --config-file cypress.config-small.js --browser edge",
+    "eSmallV": "cypress run --config-file cypress.config-small.js --browser edge --headed"
   },
   "keywords": [],
   "author": "",
